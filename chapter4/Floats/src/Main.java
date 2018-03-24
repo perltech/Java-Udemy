@@ -20,7 +20,7 @@ public class Main {
 
 
         int pounds = 160;
-        float kilos = (float) pounds * 0.45259237f;
+        double kilos = (double) pounds * 0.45259237d;
         System.out.println("Kilos: " + kilos);
 
     }

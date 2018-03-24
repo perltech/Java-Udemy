@@ -5,7 +5,8 @@ public class Main {
         int myMinValue = -2_147_483_648;
         // Underscore can be substituted as a comma in large numbers
         int myMaxValue = 2_147_483_647;
-        int myIntTotal = (myMinValue/2);
+        //Default type for Java is int
+        int myNewIntValue = (myMinValue/2);
 
         //byte has a width of 8
         byte myByteMin = -128;
@@ -16,9 +17,11 @@ public class Main {
         //short has a width of 16
         short myShortMin = -32768;
         short myShortMax = 32767;
+        short myNewShort
 
         //long has a width of 64
         long myLongValue = 100L;
         //Range 2e10*63, 64-bit number
+        //Requires "L" at the end of the number
     }
 }

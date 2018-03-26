@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7e12d35-dd4d-4ba7-a88c-79bc378ba98a" name="Default" comment="" />
+    <list default="true" id="74adb79f-14a9-4cc5-b32f-be2fb1714242" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="936" />
-    <option name="y" value="-1632" />
+    <option name="x" value="714" />
+    <option name="y" value="-1194" />
     <option name="width" value="1400" />
     <option name="height" value="851" />
   </component>
@@ -67,21 +67,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="KeywordsAndExpressions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KeywordsAndExpressions" type="462c0819:PsiDirectoryNode" />
+              <item name="WhitespaceAndIndenting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WhitespaceAndIndenting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,11 +190,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7e12d35-dd4d-4ba7-a88c-79bc378ba98a" name="Default" comment="" />
-      <created>1522001674248</created>
+      <changelist id="74adb79f-14a9-4cc5-b32f-be2fb1714242" name="Default" comment="" />
+      <created>1522003157017</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522001674248</updated>
+      <updated>1522003157017</updated>
     </task>
     <servers />
   </component>
@@ -239,8 +239,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>

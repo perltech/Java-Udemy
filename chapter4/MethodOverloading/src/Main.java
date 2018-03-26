@@ -8,6 +8,7 @@ public class Main {
 //        calculateScore();
 
         System.out.println("Centimeters: " + calcFeetAndInchesToCentimeters(5,7));
+        System.out.println("Centimeters: " + calcFeetAndInchesToCentimeters(123));
     }
 
     public static int calculateScore(String playerName, int score) {
@@ -42,4 +43,18 @@ public class Main {
 
         return centimeters;
     }
+
+    public static double calcFeetAndInchesToCentimeters(int inches) {
+        double centimeters;
+
+        if(inches < 0) {
+            System.out.println("Incorrect inches.");
+            return -1;
+        }
+
+        centimeters = inches * 2.54;
+
+        return centimeters;
+    }
+
 }

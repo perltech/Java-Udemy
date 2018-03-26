@@ -3,8 +3,10 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
         int highScore = calculateScore(true, 800, levelCompleted, bonus);
+        System.out.println("Your final score was " + highScore);
 
-        calculateScore(true, 10000, 8,200);
+        highScore = calculateScore(true, 10000, 8,200);
+        System.out.println("Your new final score is " + highScore);
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -13,7 +15,6 @@ public class Main {
         if(gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 1000;
-            System.out.println("Your final score was: " + finalScore);
             return finalScore;
         }
         return -1;

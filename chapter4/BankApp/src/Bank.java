@@ -1,28 +1,25 @@
 public class Bank {
-    int accountNumber;
-    double balance;
-    String customerName;
-    String email;
-    int phoneNumber;
+    private int accountNumber;
+    private double balance;
+    private String customerName;
+    private String email;
+    private int phoneNumber;
 
-    public void setAccountNumber(int accountNumber) {
+
+    public Bank() {
+        this(5678, 2.50, "Default Name", "Default email", 1234);
+    }
+
+    public Bank(int accountNumber, double balance, String customerName, String email, int phoneNumber) {
         this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(double balance) {
         this.balance = balance;
-    }
-
-    public void setCustomerName(String customerName) {
         this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public Bank(int accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
     public int getAccountNumber() {

@@ -5,4 +5,5 @@ public class Main {
         Dog dog = new Dog("Yorkie", 2, 25, 4, 4, 1, 20, "Shaggy");
         dog.eat();
     }
+
 }

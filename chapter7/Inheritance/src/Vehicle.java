@@ -1,16 +1,16 @@
 public class Vehicle {
-    int speed;
-    int gears;
-    String steeringDirection;
+    private int speed;
+    private int gear;
+    private String steeringDirection;
 
-    public Vehicle(int speed, int gears, String steeringDirection) {
+    public Vehicle(int speed, int gear, String steeringDirection) {
         this.speed = speed;
-        this.gears = gears;
+        this.gear = gear;
         this.steeringDirection = steeringDirection;
     }
 
-    public Vehicle(int speed, String steeringDirection) {
-        this(0, "Standing Still.")
+    public Vehicle(int gear) {
+        this(0,gear, "Standing Still.");
     }
 
     public String steering(String direction) {
@@ -19,22 +19,23 @@ public class Vehicle {
         return steeringDirection;
     }
 
-    public int gearChange(int onGear, int speed) {
-
-        if (onGear <= gears || gears >= 1) {
-            System.out.println("Gear Changed.");
-            changeSpeed(speed);
-            onGear ++;
-        } else {
-            System.out.println("You can't go to that gear.");
-        }
-        return onGear;
+    public int gearChange(int changeGear) {
+        do {
+            if (gear >= 1) {
+                System.out.println("Gear Changed.");
+                changeSpeed(speed);
+                changeGear ++;
+            } else {
+                System.out.println("You can't go to that gear.");
+            }
+        } while(changeGear <= gear);
+        return changeGear;
     }
 
-    public int changeSpeed(int speed) {
+    public int changeSpeed(int speedChange) {
         System.out.println("changeSpeed() called.");
         System.out.println("Your old speed was, " + speed);
-        speed += speed;
+        speed += speedChange;
         System.out.println("You're now driving, " + speed);
         return speed;
     }

@@ -9,8 +9,12 @@ public class Main {
 //        dog.run();
 
         Vehicle vehicle = new Vehicle(4, 5, "right");
+
+        FourRunner noah = new FourRunner(4,"staight",1 );
+
         System.out.println(vehicle.changeSpeed(5));
         System.out.println(vehicle.gearChange(2));
+        System.out.println(noah.gearChange(3));
     }
 
 }

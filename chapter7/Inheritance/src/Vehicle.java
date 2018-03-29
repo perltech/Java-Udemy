@@ -22,7 +22,7 @@ public class Vehicle {
     public int gearChange(int changeGear) {
         do {
             if (gear >= 1) {
-                System.out.println("Gear Changed.");
+                System.out.println("Gear changed to " + changeGear);
                 changeSpeed(speed);
                 changeGear ++;
             } else {

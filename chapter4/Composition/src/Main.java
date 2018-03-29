@@ -9,5 +9,8 @@ public class Main {
         Motherboard theMotherboard = new Motherboard("Bj-200", 4,6,"v.244");
 
         PC thePC = new PC(theCase,theMonitor,theMotherboard);
+        thePC.powerUp();
+        //thePC.getTheMonitor().drawPixelAt(1550,1200,"red");
+        //thePC.getTheMotherboard().loadProgram("DOOM");
     }
 }

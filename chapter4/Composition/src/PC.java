@@ -1,6 +1,6 @@
 public class PC {
     private Case theCase;
-    private  Monitor theMonitor;
+    private Monitor theMonitor;
     private Motherboard theMotherboard;
 
     public PC(Case theCase, Monitor theMonitor, Motherboard theMotherboard) {
@@ -9,13 +9,14 @@ public class PC {
         this.theMotherboard = theMotherboard;
     }
 
-    public void powerUp(){
+    public void powerUp() {
         theCase.pressPowerButton();
         drawLogo();
     }
 
     private void drawLogo() {
         // Fancy graphics here
-        theMonitor.drawPixelAt(1250,50,"yellow");
+        theMonitor.drawPixelAt(1250, 50, "yellow");
     }
+}
 

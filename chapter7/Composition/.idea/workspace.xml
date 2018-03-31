@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ef5d57-bf5c-42d3-94e4-0252a2fbef11" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/Composition.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Case.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Dimensions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Monitor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Motherboard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/PC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../chapter4/Composition/src/Resolution.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../CompositionChallenge/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CompositionChallenge/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PC.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PC.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
@@ -98,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+            <state relative-caret-position="172">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,7 +161,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-1620" />
-    <option name="width" value="1462" />
+    <option name="width" value="1423" />
     <option name="height" value="1571" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -329,7 +318,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-1620" width="1462" height="1571" extended-state="0" />
+    <frame x="-11" y="-1620" width="1423" height="1571" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -544,18 +534,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
